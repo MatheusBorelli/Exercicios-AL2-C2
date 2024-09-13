@@ -6,7 +6,7 @@
 
 int main(){
     
-    printf("O raio da terra equiavale a: %.2fkm\n", 2*M_PI*6371);
+    printf("O raio da terra equiavale a: %.2fkm\n", 2 * M_PI * 6371);
 
     system("pause");
     return 0;

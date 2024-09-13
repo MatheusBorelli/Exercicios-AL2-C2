@@ -54,3 +54,6 @@ dkms.conf
 *.rar
 *.zip
 *.7z
+
+#IDE folders
+.vscode/
