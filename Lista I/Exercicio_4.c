@@ -2,18 +2,18 @@
 #include <stdlib.h>
 
 int main(){
-    char* nome, matricula;
+    char nome[30], matricula[10];
     float salarioBruto = 0;
 
-    printf("Digite seu nome:")
-    scanf("%s", &nome);
+    printf("Digite seu nome:");
+    scanf("%s", nome);
     system("clear");
     
-    printf("Digite seu sobrenome:")
-    scanf("%s", &matricula);
+    printf("Digite seu sobrenome:");
+    scanf("%s", matricula);
     system("clear");
     
-    printf("Digite sua Renda familiar:")
+    printf("Digite sua Renda familiar:");
     scanf("%f", &salarioBruto);
     system("clear");
     

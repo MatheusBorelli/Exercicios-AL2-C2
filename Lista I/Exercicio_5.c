@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    char* nome, prontuario;
+    char nome[30], prontuario[10];
     float nota_1 = 0;
     float nota_2 = 0;
     float nota_3 = 0;
@@ -10,29 +10,29 @@ int main(){
     float media = 0;
 
     printf("Digite seu nome:");
-    scanf("%s", &nome);
-    system("clear");
+    scanf("%s", nome);
+    
     
     printf("Digite seu prontuario:");
-    scanf("%s", &prontuario);
-    system("clear");
+    scanf("%s", prontuario);
+    
         
-    printf("Digite sua Renda familiar:");
+    printf("Digite sua primeira nota:");
     scanf("%f", &nota_1);
-    system("clear");
-    printf("Digite sua Renda familiar:");
+    
+    printf("Digite sua segunda nota:");
     scanf("%f", &nota_2);
-    system("clear");
-    printf("Digite sua Renda familiar:");
+    
+    printf("Digite sua terceira nota:");
     scanf("%f", &nota_3);
-    system("clear");
-    printf("Digite sua Renda familiar:");
+    
+    printf("Digite sua quarta nota:");
     scanf("%f", &nota_4);
-    system("clear");
+    
     
     media = (nota_1 + nota_2 + nota_3 + nota_4)/4;
 
-    printf("Nome: %s - prontuario: %s - media do aluno : %.2f", nome, prontuario, media );
+    printf("Nome: %s - prontuario: %s - media do aluno : %.2f\n", nome, prontuario, media );
     system("pause");
     
     return 0;
