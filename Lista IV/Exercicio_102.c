@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#define Q_AlUNOS 2
+
+#define Q_AlUNOS 20
 
 int main(){
 	srand(time(NULL));
